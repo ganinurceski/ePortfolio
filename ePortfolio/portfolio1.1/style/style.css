@@ -1,0 +1,233 @@
+/***************DEF SETTINGS***************/
+Html, body{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.container h1{
+    margin: 0;
+    text-shadow: 1.5px 1.5px black;
+}        
+.container h3{
+    margin: 0;
+    text-shadow: 1px 1px black;
+}
+*{
+    margin: 0;
+}
+
+/**************SCROLLBAR*****************/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/***************NAVIGATION***************/
+#sidenav{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#sidenav a{
+    font-size: 20px;
+    display: block;
+    width: 170px;
+    padding: 12px;
+    text-decoration: none;
+    margin: 8px 0;
+    border-radius: 8px;
+    margin-left: -150px;
+    transition: 0.5s all;
+    color: white;
+    background: white;
+}
+#sidenav ul{
+    padding: 0;
+}
+#sidenav a:hover{
+    margin-left: -9px;
+    color: black;
+}
+#sidenav img{
+    height: 13%;
+    width: 13%;
+}
+
+/***************HOME***************/
+#home{
+    width: 100%;
+    height: 785px;
+    background: url(../img/background1.jpg);
+    background-size: cover;
+    position: inherit;
+}
+#information{
+    position: inherit;
+    bottom: 50%;
+    transform: translateY(50%);
+    float: right;
+    width: auto;
+    overflow: hidden;
+}
+#information a{
+    background: white;
+    color: white;
+    font-size: 16px;
+    display: inline-flex;
+    width: 180px;
+    padding: 12px;
+    text-decoration: none;
+    margin: 8px 0;
+    border-radius: 5px;
+    margin-right: -150px;
+    transition: 0.5s all;
+}
+#information ul{
+    padding: 0;
+}
+#information .informationlist a img{
+    width: 13%;
+    height: 13%;
+}
+#information a:hover{
+    margin-right: -10px;
+    color: black;
+}
+#home .container {
+    width: 651px;
+    height: 480px;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    left: 37%;
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+/***************THATS ME***************/
+#thatsme{
+    width: 100%;
+    height: 785px;
+    background: url(../img/background2.jpg);
+    background-size: cover;
+}
+#thatsme .container {
+    width: 651px;
+    height: 300px;
+    top: 130%;
+    bottom: 50%;
+    right: 50%;
+    left: 37%;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+#thatsme .container p{
+    text-shadow: 1px 1px black;
+    margin: 3px;
+    overflow-y: scroll;
+    height: 200px;
+}
+#thatsme img{
+    height: 35%;
+    margin-top: 200px;
+    margin-left: 250px;
+    border-radius: 20px;
+}
+#thatsme img:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    height: 40%;
+}
+/***************PROJECTS***************/
+#projects{
+    width: 100%;
+    height: 785px;
+    background: url(../img/background6.jpg);
+    background-size: cover;
+}
+#projects .container {
+    width: 645px;
+    height: 150px;
+    top: 1600px;
+    bottom: 50%;
+    right: 50%;
+    left: 37%;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+#skill .areafield{
+    height: 5%
+}
+#projects .container p{
+    text-shadow: 1px 1px black;
+    margin: 3px;
+    height: 75px;
+    width: 80%;
+}
+#projects .area{
+    height: 95%;
+    width: 125%;
+    top: 220%;
+    margin-left: 0;
+}
+#projects .area .areafield{
+    display: block;
+    height: 180px;
+    width: 450px;
+    overflow-y: scroll;
+    margin-bottom: 3%;
+}
+#projects .area .areafield h4, p{
+    padding-top: 0;
+    padding-bottom: 0;
+    text-shadow: 1px 1px black;
+    margin: 0;
+}
+/***************SKILLS***************/
+#skills{
+    width: 100%;
+    height: 785px;
+    background: url(../img/background4.jpg);
+    background-size: cover;
+}
+#skills .container {
+    width: 651px;
+    height: 65%;
+    top: 305%;
+    bottom: 50%;
+    right: 50%;
+    left: 37%;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    text-shadow: 1px 1px black;
+}
+#skills ul{
+    list-style-type: none;
+    padding-top: 1px;
+    margin: 0;
+}
+#skills .container .skillarea h4{
+    margin-bottom: 0;
+    border-bottom: 0;
+}
